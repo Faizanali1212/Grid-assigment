@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.cantainer{
+    width: 60%;
+    height: 80vh;
+    max-width: 1700px;
+    display: grid;
+    column-gap: 4px;
+    row-gap: 4px;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(12,1fr);
+
+    grid-template-areas:
+    /* "box1 box2 box4 box7 box11 box17"
+    "box1 box2 box4 box7 box11 box18"
+    "box1 box2 box4 box7 box12 box19"
+    "box1 box2 box4 box8 box12 box20"
+    "box1 box2 box5 box8 box13 box21"
+    "box1 box2 box5 box8 box13 box22"
+    "box1 box3 box5 box9 box14 box23"
+    "box1 box3 box5 box9 box14 box24"
+    "box1 box3 box6 box9 box15 box25"
+    "box1 box3 box6 box10 box15 box26"
+    "box1 box3 box6 box10 box16 box27"
+    "box1 box3 box4 box10 box16 box28" ; */
+
+
+
+                "daba1 daba2 daba4 daba7 daba11 daba17"
+                "daba1 daba2 daba4 daba7 daba11 daba18"
+                "daba1 daba2 daba4 daba7 daba12 daba19"
+                "daba1 daba2 daba4 daba8 daba12 daba20"
+                "daba1 daba2 daba5 daba8 daba13 daba21"
+                "daba1 daba2 daba5 daba8 daba13 daba22"
+                "daba1 daba3 daba5 daba9 daba14 daba23"
+                "daba1 daba3 daba5 daba9 daba14 daba24"
+                "daba1 daba3 daba6 daba9 daba15 daba25"
+                "daba1 daba3 daba6 daba10 daba15 daba26"
+                "daba1 daba3 daba6 daba10 daba16 daba27"
+                "daba1 daba3 daba6 daba10 daba16 daba28";
+        }
+
+
+.item{
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#box-1{grid-area:daba1;}
+#box-2{grid-area:daba2;}
+#box-3{grid-area:daba3 ;}
+#box-4{grid-area: daba4;}
+#box-5{grid-area: daba5;}
+#box-6{grid-area: daba6;}
+#box-7{grid-area:daba7;}
+#box-8{grid-area: daba8;}
+#box-9{grid-area: daba9;}
+#box-10{grid-area: daba10;}
+#box-11{grid-area: daba11;}
+#box-12{grid-area: daba12;}
+#box-13{grid-area: daba13;}
+#box-14{grid-area: daba14;}
+#box-15{grid-area: daba15;}
+#box-16{grid-area: daba16;}
+#box-17{grid-area: daba17;}
+#box-18{grid-area: daba18;}
+#box-19{grid-area: daba19;}
+#box-20{grid-area: daba20;}
+#box-21{grid-area: daba21;}
+#box-22{grid-area: daba22;}
+#box-23{grid-area: daba23;}
+#box-24{grid-area: daba24;}
+#box-25{grid-area: daba25;}
+#box-26{grid-area: daba26;}
+#box-27{grid-area: daba27;}
+#box-28{grid-area: daba28;}
+
+
+
+
+
+
+
